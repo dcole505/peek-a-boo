@@ -11,3 +11,10 @@ $(document).ready(function() {
     $("#walrus-fade-out").fadeToggle();
   });
 });
+
+$(document).ready(function() {
+  $(".slideable").click(function() {
+    $("#walrus-slide-down").slideToggle();
+    $("#walrus-slide-up").slideToggle();
+  });
+});

@@ -5,6 +5,11 @@
 #walrus-fade-out {
   display: none;
 }
+
+#walrus-slide-down {
+  display: none;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
@@ -20,5 +25,14 @@
 }
 
 .fadeable:hover {
+  text-decoration: underline;
+}
+
+.slideable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.slideable:hover {
   text-decoration: underline;
 }
