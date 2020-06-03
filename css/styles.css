@@ -2,11 +2,23 @@
   display: none;
 }
 
+#walrus-fade-out {
+  display: none;
+}
 .clickable {
   cursor: pointer;
   color: #0088cc;
 }
 
 .clickable:hover {
+  text-decoration: underline;
+}
+
+.fadeable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.fadeable:hover {
   text-decoration: underline;
 }
